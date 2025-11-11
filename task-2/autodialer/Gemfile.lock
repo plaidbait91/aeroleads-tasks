@@ -112,8 +112,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-net_http (3.4.1)
-      net-http (>= 0.5.0)
+    faraday-net_http (3.4.2)
+      net-http (~> 0.5)
     fugit (1.12.1)
       et-orbi (~> 1.4)
       raabro (~> 1.4)
@@ -148,7 +148,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.15.2)
+    json (2.16.0)
     jwt (3.1.2)
       base64
     kamal (2.8.2)
@@ -176,7 +176,7 @@ GEM
       net-smtp
     marcel (1.1.0)
     mini_mime (1.1.5)
-    minitest (5.26.0)
+    minitest (5.26.1)
     msgpack (1.8.0)
     net-http (0.7.0)
       uri
@@ -276,8 +276,9 @@ GEM
       erb
       psych (>= 4.0.0)
       tsort
+    redcarpet (3.6.1)
     regexp_parser (2.11.3)
-    reline (0.6.2)
+    reline (0.6.3)
       io-console (~> 0.5)
     rubocop (1.81.7)
       json (~> 2.3)
@@ -290,7 +291,7 @@ GEM
       rubocop-ast (>= 1.47.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.47.1)
+    rubocop-ast (1.48.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.26.1)
@@ -308,17 +309,17 @@ GEM
       rubocop-performance (>= 1.24)
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
-    sass-embedded (1.93.3-aarch64-linux-gnu)
+    sass-embedded (1.94.0-aarch64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.93.3-aarch64-linux-musl)
+    sass-embedded (1.94.0-aarch64-linux-musl)
       google-protobuf (~> 4.31)
-    sass-embedded (1.93.3-arm-linux-gnueabihf)
+    sass-embedded (1.94.0-arm-linux-gnueabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.93.3-arm-linux-musleabihf)
+    sass-embedded (1.94.0-arm-linux-musleabihf)
       google-protobuf (~> 4.31)
-    sass-embedded (1.93.3-x86_64-linux-gnu)
+    sass-embedded (1.94.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
-    sass-embedded (1.93.3-x86_64-linux-musl)
+    sass-embedded (1.94.0-x86_64-linux-musl)
       google-protobuf (~> 4.31)
     securerandom (0.4.1)
     solid_cable (3.0.12)
@@ -326,7 +327,7 @@ GEM
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)
-    solid_cache (1.0.8)
+    solid_cache (1.0.10)
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)
@@ -356,7 +357,7 @@ GEM
     turbo-rails (2.0.20)
       actionpack (>= 7.1.0)
       railties (>= 7.1.0)
-    twilio-ruby (7.8.5)
+    twilio-ruby (7.8.6)
       faraday (>= 0.9, < 3.0)
       jwt (>= 1.5, < 4.0)
       nokogiri (>= 1.6, < 2.0)
@@ -386,7 +387,6 @@ PLATFORMS
   arm-linux-gnueabihf
   arm-linux-musl
   arm-linux-musleabihf
-  x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -404,6 +404,7 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails (~> 8.1.1)
+  redcarpet
   rubocop-rails-omakase
   solid_cable
   solid_cache

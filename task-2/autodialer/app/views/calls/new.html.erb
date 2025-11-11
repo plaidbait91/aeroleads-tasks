@@ -56,7 +56,7 @@
               <th>Duration</th>
           </tr>
         </thead>
-        <tbody id="call_logs">
+        <tbody id="call_logs_list">
           <% if @call_logs.present? %>
             <%= render partial: "call_log", collection: @call_logs %>
           <% else %>

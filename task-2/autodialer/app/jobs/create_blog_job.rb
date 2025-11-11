@@ -1,9 +1,9 @@
 class CreateBlogJob < ApplicationJob
   queue_as :default
 
-  def perform(title:, author:)
+  def perform(article:)
     pplx_service = PerplexityService.new
-    resp = pplx_service.gen_blog(title: title)
-    Blog.create!(author: author, title: title, description: resp)
+    resp = pplx_service.gen_blog(title: article.title)
+    article.update!(description: resp, published: true)
   end
 end

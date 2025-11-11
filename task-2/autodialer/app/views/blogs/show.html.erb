@@ -4,7 +4,7 @@
     <h2><%= @blog.author%></h2>
     <br>
     <hr>
-    <p><%= @blog.description %>
+    <p><%= markdown(@blog.description) %></p>
 <% else %>
     <p>This blog does not exist!</p>
 <% end %>

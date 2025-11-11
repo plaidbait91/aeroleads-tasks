@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   def new
-    @blogs = Blog.all
+    @blogs = Blog.order(:created_at)
   end
 
   def show
@@ -14,7 +14,12 @@ class BlogsController < ApplicationController
     titles = list_input.map(&:strip).reject(&:blank?)
 
     titles.each do |title|
-      CreateBlogJob.perform_later(title: title, author: author)
+      article = Blog.create!(title: title, author: author)
+      CreateBlogJob.perform_later(article: article)
+    end
+
+    respond_to do |format|
+      format.turbo_stream { render inline: "" }
     end
   end
 end

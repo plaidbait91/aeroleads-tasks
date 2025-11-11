@@ -1,5 +1,13 @@
-<%= link_to blog_show_path(blog.id), style: "text-decoration: none; color: inherit;" do %>
+<div id="blog_<%= blog.id %>">
+<% if blog.published? %>
+    <%= link_to blog_show_path(blog.id) do %>
     <div>
         <span><%= blog.title %></span> by <span><%= blog.author %></span>
     </div>
+    <% end %>
+<% else %>
+  <div>
+        <span><%= blog.title %></span> by <span><%= blog.author %></span> <span>(generation in progress...)</span>
+  </div>
 <% end %>
+</div>

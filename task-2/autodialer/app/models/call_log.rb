@@ -10,10 +10,10 @@ class CallLog < ApplicationRecord
         broadcast_remove_to "call_logs", target: "no_logs_message"
       end
       
-      broadcast_append_to "call_logs", partial: "calls/call_log", locals: { call_log: self }
+      broadcast_append_to "call_logs", target: "call_logs_list", partial: "calls/call_log", locals: { call_log: self }
     end
 
     def broadcast_replace      
-      broadcast_replace_to "call_logs", partial: "calls/call_log", locals: { call_log: self }
+      broadcast_replace_to "call_logs", target: "call_log_#{id}", partial: "calls/call_log", locals: { call_log: self }
     end
 end

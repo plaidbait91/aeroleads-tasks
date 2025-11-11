@@ -20,7 +20,7 @@ class PerplexityService
       messages: [
         {
           role: "user", 
-          content: "Write a blog on #{title}"
+          content: "Write a short blog on #{title}"
         }
       ]
     }.to_json
