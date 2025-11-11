@@ -1,0 +1,69 @@
+<h1>Calls#new</h1>
+<%= link_to "Back", root_path %>
+<div style="display: flex; gap: 20px;">
+
+  <!-- Left Section: List of Numbers + extra field/button -->
+  <div style="display:flex; flex: 1;">
+    <div style="flex: 1;">
+    <h3>List of Numbers</h3>
+
+    <%= form_with url: call_list_path, method: :post, local: true do %>
+
+      <!-- Existing textarea for list of numbers -->
+      <div style="margin-bottom: 15px;">
+        <%= label_tag :numbers, "Numbers (one per line):" %><br>
+        <%= text_area_tag :numbers, nil, placeholder: "Enter numbers, one per line", rows: 10, cols: 30 %>
+      </div>
+
+      <!-- Call button -->
+      <%= submit_tag "Call list of numbers", class: "btn btn-primary", style: "margin-bottom: 15px;" %>
+    <% end %>
+
+      </div>
+
+    <div style="flex: 1;">
+
+    <h3>Agent call</h3>
+
+    <%= form_with url: call_llm_path, method: :post, local: true do %>
+
+      <div style="margin-bottom: 15px;">
+        <%= label_tag :llm_input, "Input to LLM:" %><br>
+        <%= text_area_tag :llm_input, nil, placeholder: "Enter command for AI agent to execute", rows: 5, cols: 50 %>
+      </div>
+
+      <!-- Call button -->
+      <%= submit_tag "Call using AI", class: "btn btn-primary", style: "margin-bottom: 15px;" %>
+      </div>
+
+    <% end %>
+  </div>
+
+  <div style="width: 1px; background: #ccc;"></div>
+
+  <!-- Right Section: Logs -->
+  <div style="flex: 1;">
+    <h3>Logs</h3>
+    <%= turbo_stream_from "call_logs" %>
+    <div style="border: 1px solid #ccc; padding: 10px; height: 250px; overflow-y: scroll;">
+      <table border='1'>
+        <thead>
+          <tr>
+              <th>Call time</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Status</th>
+              <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody id="call_logs">
+          <% if @call_logs.present? %>
+            <%= render partial: "call_log", collection: @call_logs %>
+          <% else %>
+            <tr id="no_logs_message"><td colspan="5" style="text-align: center;">No logs yet...</td></tr>
+          <% end %>
+        </tbody>
+    </div>
+  </div>
+
+</div>

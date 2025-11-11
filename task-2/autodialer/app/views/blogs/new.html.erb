@@ -1,0 +1,40 @@
+<h1>Blogs</h1>
+<%= link_to "Back", root_path %>
+<div style="display: flex; gap: 20px;">
+
+  <!-- Left Section: List of Numbers + extra field/button -->
+  <div style="flex: 1;">
+
+    <%= form_with url: blog_create_path, method: :post, local: true do %>
+
+    <h3>Blog titles</h3>
+      <!-- Existing textarea for list of numbers -->
+      <div style="margin-bottom: 15px;">
+        <%= label_tag :blogs, "Titles:" %><br>
+        <%= text_area_tag :blogs, nil, placeholder: "Text here", rows: 10, cols: 30 %>
+      </div>
+
+      <div style="margin-bottom: 15px;">
+        <%= label_tag :author, "Author:" %><br>
+        <%= text_area_tag :author, nil, placeholder: "Author here", rows: 2, cols: 30 %>
+      </div>
+
+      <!-- Call button -->
+      <%= submit_tag "Generate blogs", class: "btn btn-primary", style: "margin-bottom: 15px;" %>
+    <% end %>
+  </div>
+
+  <div style="width: 1px; background: #ccc;"></div>
+
+  <div style="flex: 1;">
+    <h3>Blogs</h3>
+    <div style="border: 1px solid #ccc; padding: 10px; height: 250px; overflow-y: scroll;">
+      <% if @blogs.present? %>
+        <%= render @blogs %>
+      <% else %>
+        <p>No logs yet...</p>
+      <% end %>
+    </div>
+  </div>
+
+</div>

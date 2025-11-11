@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @app_name %></title>
+</head>
+<body>
+  <h1>Welcome to <%= @app_name %></h1>
+
+  <p>
+    This app supports two key features:
+  </p>
+
+  <ul>
+    <li>
+      <strong>Auto-dial Numbers</strong>: Automatically place calls to phone numbers via our telephony service.
+      <br>
+      <%= link_to "Go to Call UI", call_path %>
+    </li>
+    <li>
+      <strong>Generate Blogs</strong>: Use our AI agent to create blog posts from your prompts.
+      <br>
+      <%= link_to "Go to Blog Generator", blog_path %>
+    </li>
+  </ul>
+
+  <p>
+    To get started, select one of the options above.
+  </p>
+
+  <footer>
+    <p>&copy; <%= Date.current.year %> <%= @app_name %></p>
+  </footer>
+</body>
+</html>

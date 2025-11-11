@@ -1,0 +1,10 @@
+<%= link_to "Back", blog_path %>
+<% if @blog.present? %>
+    <h1><%= @blog.title%></h1>
+    <h2><%= @blog.author%></h2>
+    <br>
+    <hr>
+    <p><%= @blog.description %>
+<% else %>
+    <p>This blog does not exist!</p>
+<% end %>
