@@ -1,0 +1,551 @@
+2025-11-12 17:53:36,948 [INFO] Using default request storage
+2025-11-12 17:53:36,953 [INFO] Created proxy listening on 127.0.0.1:45631
+2025-11-12 17:53:58,494 [INFO] Using default request storage
+2025-11-12 17:53:58,499 [INFO] Created proxy listening on 127.0.0.1:43589
+2025-11-12 17:55:41,230 [INFO] Using default request storage
+2025-11-12 17:55:41,235 [INFO] Created proxy listening on 127.0.0.1:36359
+2025-11-12 17:55:43,158 [INFO] Capturing request: https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json
+2025-11-12 17:55:43,598 [INFO] Capturing response: https://raw.githubusercontent.com/SeleniumHQ/selenium/trunk/common/geckodriver/geckodriver-support.json 200 OK
+2025-11-12 17:55:55,563 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:55:56,262 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain
+2025-11-12 17:55:56,462 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain 200 
+2025-11-12 17:55:57,065 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:55:57,582 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain
+2025-11-12 17:55:57,830 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain 200 
+2025-11-12 17:55:57,874 [INFO] 127.0.0.1:42928: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:55:58,967 [INFO] 127.0.0.1:42910: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:56:00,963 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:56:01,407 [INFO] Scraping profile: https://www.linkedin.com/in/sundarpichai/
+2025-11-12 17:56:03,239 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:56:54,263 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:56:54,366 [ERROR] Error scraping https://www.linkedin.com/in/sundarpichai/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:56:54,366 [INFO] Scraping profile: https://www.linkedin.com/in/satyanadella/
+2025-11-12 17:56:55,382 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:56:55,890 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:56:55,966 [ERROR] Error scraping https://www.linkedin.com/in/satyanadella/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:56:55,966 [INFO] Scraping profile: https://www.linkedin.com/in/mark-zuckerberg-618bba58/
+2025-11-12 17:56:56,754 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:56:57,741 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:56:57,797 [ERROR] Error scraping https://www.linkedin.com/in/mark-zuckerberg-618bba58/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:56:57,797 [INFO] Scraping profile: https://www.linkedin.com/in/jenhsunhuang/
+2025-11-12 17:56:58,506 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:56:59,374 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:56:59,441 [ERROR] Error scraping https://www.linkedin.com/in/jenhsunhuang/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:56:59,441 [INFO] Scraping profile: https://www.linkedin.com/in/andy-jassy-8b1615/
+2025-11-12 17:56:59,938 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:00,450 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:00,517 [ERROR] Error scraping https://www.linkedin.com/in/andy-jassy-8b1615/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:00,517 [INFO] Scraping profile: https://www.linkedin.com/in/patrickcollison/
+2025-11-12 17:57:01,375 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:01,890 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:01,961 [ERROR] Error scraping https://www.linkedin.com/in/patrickcollison/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:01,962 [INFO] Scraping profile: https://www.linkedin.com/in/brianchesky/
+2025-11-12 17:57:02,456 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:04,499 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:04,565 [ERROR] Error scraping https://www.linkedin.com/in/brianchesky/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:04,566 [INFO] Scraping profile: https://www.linkedin.com/in/demishassabis/
+2025-11-12 17:57:05,677 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:08,031 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc49983a610>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/abf86792-0f1f-4a07-b2f0-6046e569fd56
+2025-11-12 17:57:08,031 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc492e11390>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/abf86792-0f1f-4a07-b2f0-6046e569fd56
+2025-11-12 17:57:08,032 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc4994ba950>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/abf86792-0f1f-4a07-b2f0-6046e569fd56
+2025-11-12 17:57:08,033 [INFO] Browser closed.
+2025-11-12 17:57:20,885 [INFO] Using default request storage
+2025-11-12 17:57:20,890 [INFO] Created proxy listening on 127.0.0.1:39407
+2025-11-12 17:57:31,391 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:32,913 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:33,435 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain
+2025-11-12 17:57:33,651 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain
+2025-11-12 17:57:33,729 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain 200 
+2025-11-12 17:57:33,867 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain 200 
+2025-11-12 17:57:33,911 [INFO] 127.0.0.1:44008: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:57:36,161 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:36,747 [INFO] Scraping profile: https://www.linkedin.com/in/sundarpichai/
+2025-11-12 17:57:37,215 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:38,041 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:38,472 [INFO] 127.0.0.1:47440: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:57:39,466 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:40,142 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:40,236 [ERROR] Error scraping https://www.linkedin.com/in/sundarpichai/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:40,237 [INFO] Scraping profile: https://www.linkedin.com/in/satyanadella/
+2025-11-12 17:57:41,718 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:44,807 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:44,866 [ERROR] Error scraping https://www.linkedin.com/in/satyanadella/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:44,866 [INFO] Scraping profile: https://www.linkedin.com/in/mark-zuckerberg-618bba58/
+2025-11-12 17:57:46,021 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:47,504 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:47,561 [ERROR] Error scraping https://www.linkedin.com/in/mark-zuckerberg-618bba58/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:47,562 [INFO] Scraping profile: https://www.linkedin.com/in/jenhsunhuang/
+2025-11-12 17:57:48,273 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:48,920 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:48,978 [ERROR] Error scraping https://www.linkedin.com/in/jenhsunhuang/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:48,978 [INFO] Scraping profile: https://www.linkedin.com/in/andy-jassy-8b1615/
+2025-11-12 17:57:50,350 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:50,370 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:50,428 [ERROR] Error scraping https://www.linkedin.com/in/andy-jassy-8b1615/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:50,428 [INFO] Scraping profile: https://www.linkedin.com/in/patrickcollison/
+2025-11-12 17:57:51,860 [ERROR] Error scraping https://www.linkedin.com/in/patrickcollison/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:51,860 [INFO] Scraping profile: https://www.linkedin.com/in/brianchesky/
+2025-11-12 17:57:53,376 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:57:56,314 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:57:56,370 [ERROR] Error scraping https://www.linkedin.com/in/brianchesky/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:57:56,370 [INFO] Scraping profile: https://www.linkedin.com/in/demishassabis/
+2025-11-12 17:57:57,800 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:00,714 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:00,772 [ERROR] Error scraping https://www.linkedin.com/in/demishassabis/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:00,772 [INFO] Scraping profile: https://www.linkedin.com/in/yann-lecun/
+2025-11-12 17:58:00,822 [INFO] Capturing request: https://support.mozilla.org/1/firefox/136.0/Linux/en-US/connection-not-secure
+2025-11-12 17:58:02,716 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:02,818 [INFO] Capturing response: https://support.mozilla.org/1/firefox/136.0/Linux/en-US/connection-not-secure 302 
+2025-11-12 17:58:02,972 [INFO] Capturing request: https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect?as=u&utm_source=inproduct
+2025-11-12 17:58:03,325 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:03,389 [ERROR] Error scraping https://www.linkedin.com/in/yann-lecun/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:03,389 [INFO] Scraping profile: https://www.linkedin.com/in/andrewyng/
+2025-11-12 17:58:04,055 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:04,225 [INFO] Capturing response: https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect?as=u&utm_source=inproduct 200 
+2025-11-12 17:58:04,715 [INFO] 127.0.0.1:38864: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:05,312 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/screen.818e86db0c05ff37.css
+2025-11-12 17:58:05,317 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/58.4022309305ddf592.js
+2025-11-12 17:58:05,319 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/document.1400607f788fdb23.js
+2025-11-12 17:58:05,323 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/common.fx.download.46606c8553638ec9.js
+2025-11-12 17:58:05,327 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/jsi18n/en-us/djangojs-min.js
+2025-11-12 17:58:05,329 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/default-FFA-avatar.1eeb2a0a42235417.png
+2025-11-12 17:58:05,330 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/mozilla-support.4be004d0bbcbfb1e.svg
+2025-11-12 17:58:05,332 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/spinner.0504e207549790a6.gif
+2025-11-12 17:58:05,333 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/products/2020-04-14-08-36-13-8dda6f.png
+2025-11-12 17:58:05,334 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/pencil.966aaf14c9fb9489.svg
+2025-11-12 17:58:05,335 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/thumbs-up.ebafb6e8babd8913.svg
+2025-11-12 17:58:05,336 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif
+2025-11-12 17:58:05,338 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/volunteer.9a99c597228412ee.png
+2025-11-12 17:58:05,338 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/reader-mode.8280caa0e03387df.svg
+2025-11-12 17:58:05,403 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/566.52e082bc6ceca92f.js
+2025-11-12 17:58:05,434 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.f1a8b29a563ecd7a.js
+2025-11-12 17:58:05,602 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:05,661 [ERROR] Error scraping https://www.linkedin.com/in/andrewyng/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:05,662 [INFO] Scraping profile: https://www.linkedin.com/in/dario-amodei-3934934/
+2025-11-12 17:58:05,721 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/566.52e082bc6ceca92f.js 200 
+2025-11-12 17:58:05,771 [INFO] 127.0.0.1:33314: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:05,896 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/gtm-snippet.f1a8b29a563ecd7a.js 200 
+2025-11-12 17:58:05,939 [INFO] 127.0.0.1:33286: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:05,975 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/467.e805b3b5a73440ca.js
+2025-11-12 17:58:06,011 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/58.4022309305ddf592.js 200 
+2025-11-12 17:58:06,180 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:06,223 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/467.e805b3b5a73440ca.js 200 
+2025-11-12 17:58:06,226 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/32.3cac3f412ceba18c.js
+2025-11-12 17:58:06,267 [INFO] 127.0.0.1:33316: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:06,303 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/document.1400607f788fdb23.js 200 
+2025-11-12 17:58:06,310 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/jsi18n/en-us/djangojs-min.js 200 
+2025-11-12 17:58:06,312 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/common.fx.download.46606c8553638ec9.js 200 
+2025-11-12 17:58:06,313 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/default-FFA-avatar.1eeb2a0a42235417.png 200 
+2025-11-12 17:58:06,316 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/mozilla-support.4be004d0bbcbfb1e.svg 200 
+2025-11-12 17:58:06,385 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/products/2020-04-14-08-36-13-8dda6f.png 200 
+2025-11-12 17:58:06,389 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/thumbs-up.ebafb6e8babd8913.svg 200 
+2025-11-12 17:58:06,390 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/pencil.966aaf14c9fb9489.svg 200 
+2025-11-12 17:58:06,392 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/placeholder.cb78bf81388965e3.gif 200 
+2025-11-12 17:58:06,540 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/reader-mode.8280caa0e03387df.svg 200 
+2025-11-12 17:58:06,590 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/common.ec3737bd76c83a6a.js
+2025-11-12 17:58:06,596 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/spinner.0504e207549790a6.gif 200 
+2025-11-12 17:58:06,600 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:06,648 [ERROR] Error scraping https://www.linkedin.com/in/dario-amodei-3934934/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:06,649 [INFO] Scraping profile: https://www.linkedin.com/in/aravind-srinivas-16051987/
+2025-11-12 17:58:06,876 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/volunteer.9a99c597228412ee.png 200 
+2025-11-12 17:58:07,247 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/screen.818e86db0c05ff37.css 200 
+2025-11-12 17:58:07,381 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/search.926df0485fcd60d8.svg
+2025-11-12 17:58:07,384 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.4db90ce0451891a7.svg
+2025-11-12 17:58:07,386 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.aa8816d6bb61690b.svg
+2025-11-12 17:58:07,387 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.6076514138961947.svg
+2025-11-12 17:58:07,389 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/wordmark-white.db8a7049aa9b07ca.svg
+2025-11-12 17:58:07,410 [ERROR] Error scraping https://www.linkedin.com/in/aravind-srinivas-16051987/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:07,411 [INFO] Scraping profile: https://www.linkedin.com/in/andrej-karpathy-9a650716/
+2025-11-12 17:58:07,489 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:07,588 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/search.926df0485fcd60d8.svg 200 
+2025-11-12 17:58:07,628 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.4db90ce0451891a7.svg 200 
+2025-11-12 17:58:07,631 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.aa8816d6bb61690b.svg 200 
+2025-11-12 17:58:07,632 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/white.6076514138961947.svg 200 
+2025-11-12 17:58:07,634 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/wordmark-white.db8a7049aa9b07ca.svg 200 
+2025-11-12 17:58:07,683 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/common.ec3737bd76c83a6a.js 200 
+2025-11-12 17:58:07,731 [INFO] 127.0.0.1:33310: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:07,854 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/32.3cac3f412ceba18c.js 200 
+2025-11-12 17:58:07,920 [INFO] 127.0.0.1:33306: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:08,113 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Bold.3717db0be15085ac.woff2
+2025-11-12 17:58:08,115 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Metropolis-Bold.e118a19885cddd9f.woff2
+2025-11-12 17:58:08,117 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Regular.f80c55a7aedf3861.woff2
+2025-11-12 17:58:08,118 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Italic.421558e4e052d9ac.woff2
+2025-11-12 17:58:08,120 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/ZillaSlab-Bold.74c7cb1df1177b29.woff2
+2025-11-12 17:58:08,990 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Bold.3717db0be15085ac.woff2 200 
+2025-11-12 17:58:08,996 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Metropolis-Bold.e118a19885cddd9f.woff2 200 
+2025-11-12 17:58:09,007 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:09,064 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/apple-touch-icon.40087fc676872dcc.png
+2025-11-12 17:58:09,067 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/favicon.abcbdb85e0f9e7a0.png
+2025-11-12 17:58:09,103 [ERROR] Error scraping https://www.linkedin.com/in/andrej-karpathy-9a650716/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:09,103 [INFO] Scraping profile: https://www.linkedin.com/in/linustorvalds/
+2025-11-12 17:58:09,147 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/close.5d98c7f0a49b9f91.svg
+2025-11-12 17:58:09,474 [INFO] Capturing request: https://support.mozilla.org/csrftoken
+2025-11-12 17:58:09,653 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/apple-touch-icon.40087fc676872dcc.png 200 
+2025-11-12 17:58:09,654 [INFO] Capturing request: https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer
+2025-11-12 17:58:09,657 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/close.5d98c7f0a49b9f91.svg 200 
+2025-11-12 17:58:10,074 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/favicon.abcbdb85e0f9e7a0.png 200 
+2025-11-12 17:58:10,259 [ERROR] Error scraping https://www.linkedin.com/in/linustorvalds/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:10,259 [INFO] Scraping profile: https://www.linkedin.com/in/sriharsha-m-563aa217/
+2025-11-12 17:58:10,270 [INFO] Capturing response: https://support.mozilla.org/csrftoken 200 
+2025-11-12 17:58:10,275 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:10,278 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/ZillaSlab-Bold.74c7cb1df1177b29.woff2 200 
+2025-11-12 17:58:10,279 [INFO] 127.0.0.1:33358: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:10,281 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Regular.f80c55a7aedf3861.woff2 200 
+2025-11-12 17:58:10,474 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/static/Inter-Italic.421558e4e052d9ac.woff2 200 
+2025-11-12 17:58:10,488 [INFO] 127.0.0.1:33290: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:10,705 [INFO] Capturing response: https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer 200 
+2025-11-12 17:58:10,756 [INFO] 127.0.0.1:33334: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:11,425 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:11,486 [ERROR] Error scraping https://www.linkedin.com/in/sriharsha-m-563aa217/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:11,486 [INFO] Scraping profile: https://www.linkedin.com/in/deepigoyal/
+2025-11-12 17:58:13,064 [ERROR] Error scraping https://www.linkedin.com/in/deepigoyal/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:13,064 [INFO] Scraping profile: https://www.linkedin.com/in/dhruv-rathee-111957205/
+2025-11-12 17:58:13,273 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:13,397 [INFO] Capturing request: https://region1.google-analytics.com/g/collect?v=2&tid=G-2VC139B3XV&gtm=45je5ba1h1v882062889za200zd882062889&_p=1762950487953&gcd=13l3lPl2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=1990817059.1678559479&ul=en-us&sr=1600x900&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~115583767~115938466~115938468~116217636~116217638&sid=1762950491&sct=1&seg=0&dl=https%3A%2F%2Fsupport.mozilla.org%2Fen-US%2Fkb%2Fsecure-connection-failed-firefox-did-not-connect%3Fas%3Du%26utm_source%3Dinproduct&dt=Secure%20connection%20and%20security%20warning%20error%20pages%20in%20Firefox%20%7C%20Firefox%20Help&en=page_view&_fv=1&_ss=1&_ee=1&ep.locale=en-US&ep.topics=%2Ferror-codes%2Fperformance-and-connectivity%2F&ep.products=%2Ffirefox%2F&ep.content_group=kb-article&ep.default_slug=secure-connection-failed-firefox-did-not-connect&ep.article_locale=en-US&tfd=16665
+2025-11-12 17:58:14,229 [INFO] Capturing response: https://region1.google-analytics.com/g/collect?v=2&tid=G-2VC139B3XV&gtm=45je5ba1h1v882062889za200zd882062889&_p=1762950487953&gcd=13l3lPl2l1l1&npa=1&dma_cps=syphamo&dma=1&cid=1990817059.1678559479&ul=en-us&sr=1600x900&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528500~104684208~104684211~115583767~115938466~115938468~116217636~116217638&sid=1762950491&sct=1&seg=0&dl=https%3A%2F%2Fsupport.mozilla.org%2Fen-US%2Fkb%2Fsecure-connection-failed-firefox-did-not-connect%3Fas%3Du%26utm_source%3Dinproduct&dt=Secure%20connection%20and%20security%20warning%20error%20pages%20in%20Firefox%20%7C%20Firefox%20Help&en=page_view&_fv=1&_ss=1&_ee=1&ep.locale=en-US&ep.topics=%2Ferror-codes%2Fperformance-and-connectivity%2F&ep.products=%2Ffirefox%2F&ep.content_group=kb-article&ep.default_slug=secure-connection-failed-firefox-did-not-connect&ep.article_locale=en-US&tfd=16665 204 
+2025-11-12 17:58:15,213 [INFO] 127.0.0.1:33378: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 17:58:15,278 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:15,334 [ERROR] Error scraping https://www.linkedin.com/in/dhruv-rathee-111957205/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:15,335 [INFO] Scraping profile: https://www.linkedin.com/in/emad-mostaque-9840ba274/
+2025-11-12 17:58:16,023 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:17,194 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:17,195 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-22-41-43-6dc4bb.png
+2025-11-12 17:58:17,197 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-24-18-23-38-a5114c.png
+2025-11-12 17:58:17,198 [INFO] Capturing request: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-24-18-50-29-bde5b9.png
+2025-11-12 17:58:17,251 [ERROR] Error scraping https://www.linkedin.com/in/emad-mostaque-9840ba274/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:17,251 [INFO] Scraping profile: https://www.linkedin.com/in/evan-spiegel/
+2025-11-12 17:58:18,146 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-25-22-41-43-6dc4bb.png 200 
+2025-11-12 17:58:18,377 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:18,806 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:18,861 [ERROR] Error scraping https://www.linkedin.com/in/evan-spiegel/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:18,861 [INFO] Scraping profile: https://www.linkedin.com/in/reedhastings/
+2025-11-12 17:58:18,925 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-24-18-23-38-a5114c.png 200 
+2025-11-12 17:58:19,338 [INFO] Capturing response: https://assets-prod.sumo.prod.webservices.mozgcp.net/media/uploads/gallery/images/2025-08-24-18-50-29-bde5b9.png 200 
+2025-11-12 17:58:19,399 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 17:58:19,597 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 17:58:19,656 [ERROR] Error scraping https://www.linkedin.com/in/reedhastings/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 17:58:22,796 [INFO] Browser closed.
+2025-11-12 18:00:23,632 [INFO] Using default request storage
+2025-11-12 18:00:23,637 [INFO] Created proxy listening on 127.0.0.1:45399
+2025-11-12 18:00:34,149 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:35,379 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain
+2025-11-12 18:00:35,702 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-11-28-09-13-49.chain 200 
+2025-11-12 18:00:36,002 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:36,113 [INFO] Capturing request: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain
+2025-11-12 18:00:36,344 [INFO] Capturing response: https://content-signature-2.cdn.mozilla.net/g/chains/202402/remote-settings.content-signature.mozilla.org-2025-12-18-09-14-51.chain 200 
+2025-11-12 18:00:36,387 [INFO] 127.0.0.1:50036: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 18:00:36,967 [INFO] 127.0.0.1:50018: HTTP/2 connection terminated by client: error code: 0, last stream id: 0, additional data: None
+2025-11-12 18:00:39,274 [INFO] Scraping profile: https://www.linkedin.com/in/sundarpichai/
+2025-11-12 18:00:44,533 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:44,691 [ERROR] Error scraping https://www.linkedin.com/in/sundarpichai/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 18:00:44,691 [INFO] Scraping profile: https://www.linkedin.com/in/satyanadella/
+2025-11-12 18:00:46,155 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:46,162 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:46,271 [ERROR] Error scraping https://www.linkedin.com/in/satyanadella/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 18:00:46,271 [INFO] Scraping profile: https://www.linkedin.com/in/mark-zuckerberg-618bba58/
+2025-11-12 18:00:46,966 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:47,432 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:47,494 [ERROR] Error scraping https://www.linkedin.com/in/mark-zuckerberg-618bba58/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 18:00:47,494 [INFO] Scraping profile: https://www.linkedin.com/in/jenhsunhuang/
+2025-11-12 18:00:47,878 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:49,131 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:49,726 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:50,093 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:50,157 [ERROR] Error scraping https://www.linkedin.com/in/jenhsunhuang/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 18:00:50,157 [INFO] Scraping profile: https://www.linkedin.com/in/andy-jassy-8b1615/
+2025-11-12 18:00:51,066 [INFO] Capturing response: http://detectportal.firefox.com/canonical.html 200 OK
+2025-11-12 18:00:51,524 [INFO] Capturing request: http://detectportal.firefox.com/canonical.html
+2025-11-12 18:00:51,584 [ERROR] Error scraping https://www.linkedin.com/in/andy-jassy-8b1615/: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+InsecureCertificateError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:376:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:55:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:148:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2025-11-12 18:00:51,584 [INFO] Scraping profile: https://www.linkedin.com/in/patrickcollison/
+2025-11-12 18:00:51,968 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5c1c80b2d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b35cda48-9f3a-442f-a7b0-506170420d33
+2025-11-12 18:00:51,969 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5c1b233e90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b35cda48-9f3a-442f-a7b0-506170420d33
+2025-11-12 18:00:51,970 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5c1b233dd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b35cda48-9f3a-442f-a7b0-506170420d33
+2025-11-12 18:00:51,970 [INFO] Browser closed.
