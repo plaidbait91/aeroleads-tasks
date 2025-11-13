@@ -12,7 +12,10 @@ module Tools
       from = ENV["TWILIO_FROM_NUMBER"]
       twiml_url = ENV["TWILIO_TWIML_URL"]
       callback_host = ENV["NGROK_URL"]
-      callback_url = "#{callback_host}/status"
+      if Rails.env.production?
+        callback_host = ENV["PRODUCTION_URL"]
+      end
+      callback_url = "https://#{callback_host}/status"
 
       numbers = input.numbers
 
