@@ -101,9 +101,10 @@ test:
 production:
   primary: &primary_production
     <<: *default
+    url: <%= ENV["DATABASE_URL"] %>
     database: autodialer_production
     username: autodialer
-    password: <%= ENV["AUTODIALER_DATABASE_PASSWORD"] %>
+    password: <%= ENV["DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
     database: autodialer_production_cache
