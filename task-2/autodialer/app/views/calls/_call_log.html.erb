@@ -1,5 +1,5 @@
 <tr id="call_log_<%= call_log.id %>">
-    <td><%= call_log.created_at %></td>
+    <td><%= call_log.created_at.localtime.strftime("%Y-%m-%d %H:%M:%S") %></td>
     <td><%= call_log.from %></td>
     <td><%= call_log.to %></td>
     <td><%= call_log.status %></td>

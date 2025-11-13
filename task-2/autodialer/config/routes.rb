@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get "/call", to: "calls#new"
   post "/call/list", to: "calls#call"
   post "/call/llm", to: "calls#call_with_agent"
+  post '/call/toggle', to: 'calls#toggle_agent_mode'
 
   get "/blog", to: "blogs#new"
   get "/blog/show/:id", to: "blogs#show", as: :blog_show

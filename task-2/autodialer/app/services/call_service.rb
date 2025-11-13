@@ -1,14 +1,14 @@
 class CallService
-  def initialize(numbers:, from_number:, twiml_url:, status_callback_url:)
-    @numbers            = Array(numbers)
+  def initialize(from_number:, twiml_url:, status_callback_url:)
     @from_number        = from_number
     @twiml_url          = twiml_url
     @status_callback_url= status_callback_url
     @twilio_client      = TwilioService.new
   end
 
-  def call_all
-    @numbers.each do |to_number|
+  def call_all(numbers:)
+    results = Hash.new
+    numbers.each do |to_number|
       # create a DB record first
       record = CallLog.create!(to: to_number, from: @from_number, status: 'queued')
       begin
@@ -21,8 +21,13 @@ class CallService
         )
         record.update!(twilio_sid: call.sid, status: call.status)
       rescue Twilio::REST::RestError => e
+        results[to_number] = 'failed'
         record.update!(status: 'failed', error_message: e.message)
       end
+
+      results[to_number] = 'success'
     end
+
+    results
   end
 end

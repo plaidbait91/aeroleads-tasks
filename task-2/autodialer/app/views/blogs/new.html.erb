@@ -1,5 +1,5 @@
 <%= turbo_stream_from "blogs" %>
-<h1>Blogs</h1>
+<h1>Blog Generator</h1>
 <%= link_to "Back", root_path %>
 <div style="display: flex; gap: 20px;">
 
@@ -11,7 +11,7 @@
     <h3>Blog titles</h3>
       <!-- Existing textarea for list of numbers -->
       <div style="margin-bottom: 15px;">
-        <%= label_tag :blogs, "Titles:" %><br>
+        <%= label_tag :blogs, "Titles (one on each line):" %><br>
         <%= text_area_tag :blogs, nil, placeholder: "Text here", rows: 10, cols: 30 %>
       </div>
 

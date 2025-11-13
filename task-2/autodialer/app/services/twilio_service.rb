@@ -6,10 +6,6 @@ class TwilioService
     )
   end
 
-  # to: E.164 number
-  # from: your Twilio number
-  # status_callback_url: your webhook endpoint
-  # status_callback_events: array of strings like ['initiated','ringing','answered','completed']
   def make_call(to:, from:, url:, status_callback_url:, status_callback_events: ['completed'])
     @client.calls.create(
       to:                     to,
