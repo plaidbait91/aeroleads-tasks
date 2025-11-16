@@ -5,7 +5,7 @@ class AgentService
   def initialize
     @client = Anthropic::Client.new
     @model = "claude-haiku-4-5-20251001"
-    @tools = {"filter" => GetFilteredNumbers.new, "call" => CallNumbersList.new}
+    @tools = {"filter" => Tools::GetFilteredNumbers.new, "call" => Tools::CallNumbersList.new}
   end
 
   def call(input:, tool_strings:)
